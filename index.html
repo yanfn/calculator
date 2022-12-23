@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="App.js" defer></script>
+		<title>Calculator</title>
+	</head>
+	<body>
+		<div class="calculator">
+			<div class="output">
+				<div class="display"></div>
+			</div>
+
+			<div class="buttons">
+				<button data-delete>DEL</button>
+				<button data-operation onclick="dis('')">%</button>
+				<button data-all-clear>AC</button>
+				<button data-operation onclick="dis('/')">/</button>
+				<button class="number" onclick="dis('7')">7</button>
+				<button class="number" onclick="dis('8')">8</button>
+				<button class="number" onclick="dis('9')">9</button>
+				<button data-operation onclick="dis('*')">*</button>
+				<button class="number" onclick="dis('4')">4</button>
+				<button class="number" onclick="dis('5')">5</button>
+				<button class="number" onclick="dis('6')">6</button>
+				<button data-operation onclick="dis('-')">-</button>
+				<button class="number" onclick="dis('1')">1</button>
+				<button class="number" onclick="dis('2')">2</button>
+				<button class="number" onclick="dis('3')">3</button>
+				<button data-operation onclick="dis('+')">+</button>
+				<button class="number" onclick="dis('0')">0</button>
+				<button class="number" onclick="dis('.')">.</button>
+				<button data-operation>=</button>
+			</div>
+		</div>
+	</body>
+</html>

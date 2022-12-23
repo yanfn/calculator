@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.calculator{
+    min-height: 100vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output {
+    height: 1.3rem;
+    width: 10rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: end;
+    padding: 3px 6px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
